@@ -72,10 +72,10 @@
 				<configuration>
 					<generateGitPropertiesFile>true</generateGitPropertiesFile>
 					<generateGitPropertiesFilename>${project.build.outputDirectory}/git.properties</generateGitPropertiesFilename>
-					<includeOnlyProperties>
+					<!-- includeOnlyProperties>
 						<includeOnlyProperty>^git.build.(time|version)$</includeOnlyProperty>
 						<includeOnlyProperty>^git.commit.id.(abbrev|full)$</includeOnlyProperty>
-					</includeOnlyProperties>
+					</includeOnlyProperties -->
 					<commitIdGenerationMode>full</commitIdGenerationMode>
 				</configuration>
 			</plugin>
@@ -93,7 +93,7 @@
 						<!-- optional: create a tag based on the git commit id (via the git-commit-id 
 							plugin): -->
 						<tags>
-							<tag>${git.commit.id}</tag>
+							<tag>${git.commit.id.abbrev}</tag>
 						</tags>
 					</to>
 					<container>
