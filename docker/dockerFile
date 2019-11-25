@@ -1,4 +1,4 @@
-FROM openjdk:8-jdk-alpine
+FROM openjdk:8u232-jre-slim
 VOLUME /tmp
 ARG APPLICATION_NAME=restTestApi
 ARG VERSION=0.0.1-SNAPSHOT
