@@ -4,4 +4,4 @@ ARG APPLICATION_NAME=restTestApi
 ARG VERSION=0.0.1-SNAPSHOT
 ARG JAR_FILE=target/${APPLICATION_NAME}-${VERSION}.jar
 COPY ${JAR_FILE} app.jar
-ENTRYPOINT ["java","-jar","/app.jar"]Test
+ENTRYPOINT ["java","-jar","/app.jar"]
