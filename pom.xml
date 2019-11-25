@@ -64,7 +64,7 @@
 						<image>openjdk:8u232-jre-slim</image>
 					</from>
 					<to>
-						<image>${project.artifactId}:latest</image>
+						<image>resttestapi:latest</image>
 						<!-- optional: create a tag based on the git commit id (via the git-commit-id 
 							plugin): -->
 						<tags>
