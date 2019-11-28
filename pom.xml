@@ -90,8 +90,8 @@
 					</from>
 					<to>
 						<image>anuj/resttestapi:latest</image>
-						<!-- optional: create a tag based on the git commit id (via the git-commit-id 
-							plugin): -- >
+						< ! - - optional: create a tag based on the git commit id (via the git-commit-id 
+							plugin): - - >
 						<tags>
 							<tag>${git.commit.id.abbrev}</tag>
 						</tags>
