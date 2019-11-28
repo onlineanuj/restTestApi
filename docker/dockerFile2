@@ -1,5 +1,4 @@
-FROM openjdk:8-jre-alpine3.9
-RUN apk add --no-cache curl tar
+FROM openjdk:8u232-stretch
 VOLUME /tmp
 ARG APPLICATION_NAME=restTestApi
 ARG VERSION=0.0.1-SNAPSHOT
