@@ -80,7 +80,7 @@
 				</configuration>
 			</plugin>
 
-			<plugin>
+			<!-- plugin>
 				<groupId>com.google.cloud.tools</groupId>
 				<artifactId>jib-maven-plugin</artifactId>
 				<version>1.6.1</version>
@@ -91,7 +91,7 @@
 					<to>
 						<image>anuj/resttestapi:latest</image>
 						<!-- optional: create a tag based on the git commit id (via the git-commit-id 
-							plugin): -->
+							plugin): -- >
 						<tags>
 							<tag>${git.commit.id.abbrev}</tag>
 						</tags>
@@ -111,7 +111,7 @@
 						</goals>
 					</execution>
 				</executions>
-			</plugin>
+			</plugin -->
 		</plugins>
 	</build>
 
