@@ -1,4 +1,5 @@
 FROM openjdk:8u232-jre-slim
+RUN apk add --no-cache curl tar
 VOLUME /tmp
 ARG APPLICATION_NAME=restTestApi
 ARG VERSION=0.0.1-SNAPSHOT
